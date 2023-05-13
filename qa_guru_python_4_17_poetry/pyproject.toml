@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qa-guru-python-4-17-poetry"
+version = "0.1.0"
+description = ""
+authors = ["evgenii klimashko <klimashko108@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qa_guru_python_4_17_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
